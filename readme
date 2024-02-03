@@ -1,3 +1,4 @@
 brew install --cask emacs
 brew install emacs --build-bottle
 xcode-select --install 
+in init.el or .emacs  add (set-face-attribute 'default nil:family "Inconsolata" :height 145 :weight 'normal)
